@@ -41,7 +41,8 @@ nav {
   background-color: #00B0E0;
   display: inline;
   left: 0px;
-  top: 0px; }
+  top: 0px; 
+  z-index: 100;}
   nav ul {
     list-style: none;
     text-align: center;
