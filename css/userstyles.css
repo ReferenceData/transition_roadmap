@@ -15,23 +15,26 @@ yellow: #FFCD00;
 body{
 	margin:5px;
 	font-family: Calibri;
-	background-color:#D3D3D3; 
+	background-color:white; 
 }
 
-
-iframe:focus { 
-    outline: none;
+h1{
+	font-size: 35px;
+	text-transform: uppercase;
 }
 
-iframe[seamless] { 
-    display: block;
-}
 
 iframe{
 	width:100%;
-	height:750px;
 	border:none;
-	background: white;
+}
+
+.statusUpdate{
+	height:750px;
+}
+
+.iSharelink{
+	height:100%;
 }
 /*    NAVIGATION BAR   */
 nav {
@@ -67,8 +70,8 @@ nav {
 	text-align: center;
 }
 .country {
-	height: 140px;
-	width:140px;
+	height: 120px;
+	width:120px;
 	color:white;
 	text-align: center;
 	font-size:50px;
@@ -80,7 +83,10 @@ nav {
 	margin: 5px;
 }
 
-
+.divider{
+	background-color: #D3D3D3;
+	text-align: center;
+}
 .country >p {
 	font-size: 20px;
 	vertical-align: center;
