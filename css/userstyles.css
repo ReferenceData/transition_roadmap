@@ -33,6 +33,30 @@ iframe{
 	height:750px;
 }
 
+.stratPlanner{
+	height:500px;
+}
+
+.space{
+	height:50px;
+	float:;
+}
+
+.buttonsq{
+	height:40px;
+	width:95px;
+	background-color: navy;
+	float:left;
+	text-align: center;
+	color:white;
+	vertical-align: middle;
+	line-height: 40px; 
+}
+
+.buttonsq a{
+	text-decoration: none;
+	color: white;
+}
 .countryDetail{
 	height:100%;
 }
