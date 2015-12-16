@@ -60,6 +60,10 @@ iframe{
 .countryDetail{
 	height:100%;
 }
+
+.floattitle{
+	float:left;
+}
 /*    NAVIGATION BAR   */
 nav {
   background-color: #00B0E0;
