@@ -229,35 +229,42 @@ x\:* {behavior:url(#default#VML);}
 	<link type="text/css" rel="stylesheet" href="css/userstyles.css">
 </head>
 <body>
-	<nav class="navBar">
+  <nav class="navBar">
         <ul class="navigation-links">
-            <li ><a href="index.htm">Home</a></li>
+           <!--  <li class="active first"><a href="index.htm">Home</a></li> -->
+            <li><a href="index.htm">Home</a></li>
             <li>
-              <a href="index.htm#countries"> Countries </a>
+              <a href="CountryDetails.htm"> Countries </a>
             </li>            
             <li>
                 <a href="TransitionCalendar.htm"> Calendar </a>
             </li>  
-			<li>
-                <a href="CountryDetails.htm"> Details </a>
-            </li>
             <li>
                 <a href="StratPlannerTracker.htm"> Country Grid </a>
             </li>
             <li>
                 <a href="OGRDSFootprint.htm"> Footprint </a>
-            </li>            
+            </li> 
             <li>
                 <a href="Proposals.htm"> Future Countries </a>
             </li>
             <li>
                 <a href="RDTransitionTeam.htm"> RD Team </a>
-            </li>  
+            </li>   
+            <!-- Added in for drop down test-->
+            <li class="dropdown">
+                <a href="Roadmap.htm" class="dropbtn dropbtnSelected">Roadmap</a>
+			    <div class="dropdown-content" id="myDropdown">
+			      <a href="#">Overview</a>
+			      <a href="#">Prerequisies</a>
+			      <a href="PhaseDefinitions.htm">Phases</a>
+			    </div>
+			<!-- Added in for drop down test--> 
             <li>
                 <a href="https://ishare.nielsen.com/teams/Ops2/RDT/SitePages/DocumentIndex.aspx" target="_blank"> iShare Docs </a>
-            </li>
+            </li>  
         </ul>
-	</nav>
+  </nav>
 
 	<header>
 		<h1 class='section_title' >Phase Definitions</h1>
@@ -5469,7 +5476,9 @@ YS9pbWFnZTEucG5nUEsFBgAAAAAGAAYAhAEAAPYwAgAAAA==
 
 <!----------------------------->
 <!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
-<!----------------------------->
+<!---------------------------->
+
+     <script src="js/vendor/jquery-1.11.3.js"></script>
 </body>
 
 </html>
